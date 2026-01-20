@@ -1,0 +1,8 @@
+/.venv
+/out
+/zip
+**/*.html
+**/*.pdf
+**/*.pyc
+**/*.env.*
+!.gitignore

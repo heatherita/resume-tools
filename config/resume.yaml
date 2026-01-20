@@ -1,0 +1,180 @@
+name: "Heather Propes"
+location: "Keyport, New Jersey"
+phone: "732-900-3895"
+email: "hbuch4@yahoo.com"
+
+summary: >
+  Experienced web developer with 20+ years of expertise in designing, developing, and optimizing enterprise applications.
+  Strong proficiency in Java, Python, SQL, and front-end frameworks. Deep understanding of object-oriented programming
+  and architecture. Expertise in AWS EC2 high-availability environments, configuration management with Ansible, CI/CD
+  workflows, and release automation. Passionate about delivering high-performance applications and scalable solutions.
+
+skills:
+  - header: "Programming Languages"
+    skill: "Java, SQL, Python, PHP, Bash"
+  - header: "DevOps & Platform"
+    skill: "AWS (EC2, S3), Ansible, CI/CD workflows, Git, Docker, Linux"
+  - header: "Salesforce Platform"
+    skill: "Salesforce APIs, Sandbox environments, Enterprise CRM integrations"
+  - header: "Frameworks & Libraries"
+    skill: "Java EE, PrimeFaces, FastAPI, Tailwind, Flask, React"
+  - header: "Databases"
+    skill: "PostgreSQL, MySQL, Oracle, MS SQL Server"
+  - header: "Web Technologies"
+    skill: "REST APIs, HTTP/JSON, HTML, CSS"
+  - header: "Development Tools"
+    skill: "Git, Maven, IntelliJ, Eclipse"
+  - header: "Test Platforms"
+    skill: "JUnit, Selenium, Apache JMeter"
+  - header: "Cloud & Servers"
+    skill: "AWS, Tomcat, Apache, WebLogic"
+
+experience:
+  - company: "Bettaway Supply Chain Services"
+    title: "Java Programmer/Analyst"
+    location: "South Plainfield, NJ"
+    dates: "2015 - 2025"
+    bullets:
+      - text: "Developed and maintained enterprise Java applications to support logistics and supply chain operations."
+        tags: ["java"]
+      - text: "Developed and maintained enterprise Java applications to support logistics and supply chain operations, saving 200K annually on enterprise service contracts."
+        tags: ["quant"]
+      - text: "Created dynamic PDF reports using SQL and Apache FOP for data-driven decision-making."
+        tags: ["base"]
+      - text: "Optimized SQL queries and database performance to improve system efficiency."
+        tags: ["base"]
+      - text: "Built and maintained RESTful APIs integrating third-party services (Macropoint, Okta, Salesforce, Microdea Synergize)."
+        tags: ["base"]
+      - text: "Integrated and operated Salesforce APIs and sandbox environments as part of a J2EE-based enterprise CRUD application, syncing customer and operational data between internal systems and Salesforce."
+        tags: ["salesforce"]
+      - text: "Wrote unit testing suites using JUnit and load testing scripts using Apache JMeter."
+        tags: ["base"]
+      - text: "Led UI enhancements using JavaServer Faces (JSF) and WordPress (PHP)."
+        tags: ["base"]
+      - text: "Designed and automated AWS EC2 infrastructure upgrades and provisioning using Ansible."
+        tags: ["java"]
+      - text: "Designed and automated AWS EC2 infrastructure upgrades and provisioning using Ansible, eliminating manual system updates and enabling safe, staged rollout of Linux and Payara middleware updates via a dedicated staging environment."
+        tags: ["quant"]
+      - text: "Designed and automated WordPress core, plugin, and content updates using Ansible and WP-CLI, reducing manual maintenance and ensuring timely security updates and article publication."
+        tags: ["php"]
+      - text: "Maintained a CI/CD pipeline for J2EE applications by integrating Mercurial with Jenkins and Maven."
+        tags: ["base"]
+      - text: "Implemented DevOps best practices for configuration management and deployment automation."
+        tags: ["java"]
+      - text: "Implemented DevOps best practices for configuration management and deployment automation, cutting deployment-related downtime by 90%."
+        tags: ["quant"]
+
+  - company: "Hub City Media"
+    title: "Senior Software Engineer"
+    location: "South Plainfield, NJ"
+    dates: "2014 - 2015"
+    bullets:
+      - text: "Provisioned and reconciled accounts to LDAP, Active Directory, and databases using OIM and Oracle Waveset."
+        tags: ["base"]
+      - text: "Built OIM plugins to automate account provisioning and reconciliation."
+        tags: ["base"]
+      - text: "Developed SOA workflows for approvals, reducing errors and improving compliance."
+        tags: ["base"]
+      - text: "Analyzed OEM 12c Cloud Control to monitor and gather metrics on IAM systems."
+        tags: ["base"]
+      - text: "Team Lead for major client in higher education."
+        tags: ["base"]
+
+  - company: "BluPax Pharmaceuticals"
+    title: "LAMP Developer"
+    location: "Edison, NJ"
+    dates: "2013 - 2014"
+    bullets:
+      - text: "Developed e-commerce site using PHP."
+        tags: ["base"]
+      - text: "Developed electronic product ordering system using PHP/MySQL."
+        tags: ["base"]
+      - text: "Designed MySQL database and integrated it with QuickBooks using api tools."
+        tags: ["base"]
+      - text: "Performed QuickBooks upgrades (Enterprise 2013, Enterprise 2014), adhering to security best practices."
+        tags: ["base"]
+      - text: "Desktop support."
+        tags: ["base"]
+
+  - company: "Strauss Auto"
+    title: "LAMP Developer"
+    location: "South River, NJ"
+    dates: "2008 - 2012"
+    bullets:
+      - text: "Developed web applications using CodeIgniter framework and jQuery/AJAX."
+        tags: ["base"]
+      - text: "Created user interface for POS (point of sale) system in Java 6 using Java Swing UI libraries."
+        tags: ["base"]
+      - text: "Wrote rule-based coupon generator to accompany POS system in Java 6."
+        tags: ["base"]
+      - text: "Wrote Java unit tests to test all user interface components using UISpec4J 2.3."
+        tags: ["base"]
+      - text: "DB2 queries and database modeling using IBM AS400 platform."
+        tags: ["base"]
+
+  - company: "Musical Heritage Society"
+    title: "PHP Developer"
+    location: "Oakhurst, NJ"
+    dates: "2007 - 2008"
+    bullets:
+      - text: "Programmed ecommerce sites using CakePHP and HTML."
+        tags: ["base"]
+
+  - company: "Crusoe Communications"
+    title: "Web Programmer (freelance)"
+    location: "West Caldwell, NJ"
+    dates: "2006 - 2010"
+    bullets:
+      - text: "Developed and maintained client web sites using PHP and osCommerce."
+        tags: ["base"]
+      - text: "SEO and Google Ad Words campaign resulting in significant increase of client web traffic."
+        tags: ["base"]
+      - text: "Creation of web graphics and web site design."
+        tags: ["base"]
+
+  - company: "Aarhus University"
+    title: "Java Programmer"
+    location: "Aarhus, Denmark"
+    dates: "2002 - 2003"
+    bullets:
+      - text: "Created Student Registration System for Economics Department in Java 3 using J2EE 1.3, Tomcat 4.1 and Struts 1.2."
+        tags: ["base"]
+      - text: "Installed and administered Apache web server 1.3.20."
+        tags: ["base"]
+      - text: "Wrote scripts using perl 5.8.0 to import and export data for student registration application."
+        tags: ["base"]
+
+  - company: "Massachusetts Institute of Technology (MIT)"
+    title: "Java Analyst Programmer II"
+    location: "Cambridge, MA"
+    dates: "2000 - 2002"
+    bullets:
+      - text: "Java 3 development for web-based distance-learning applications."
+        tags: ["base"]
+      - text: "Project manager for web server migration project (IIS to Apache) which increased web security for vulnerable client."
+        tags: ["base"]
+      - text: "Co-developed set of Java libraries to automate creation of database web applications."
+        tags: ["base"]
+
+projects:
+  - name: "AnswerBank"
+    dates: "July 2025 – Present"
+    bullets:
+      - text: "Designed, deployed, and operated a secure RAG QA pipeline platform using AWS, Docker, FastAPI, and React."
+        tags: ["base"]
+      - text: "Built CI/CD workflows and environment isolation for development and production."
+        tags: ["base"]
+      - text: "Implemented authentication, role-based access control, and secure API integrations."
+        tags: ["base"]
+      - text: "Managed infrastructure, deployments, monitoring, and iterative releases."
+        tags: ["base"]
+      - text: "Built a responsive React frontend with Tailwind CSS for styling."
+        tags: ["base"]
+
+education:
+  - school: "University of Chicago"
+    detail: "Master’s Degree"
+    year: "1996"
+  - school: "UCLA"
+    detail: "Bachelor of Arts (BA)"
+    year: "1993"
