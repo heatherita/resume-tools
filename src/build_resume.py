@@ -101,7 +101,7 @@ def render_experience(
         dates = md_escape(str(role.get("dates","")))
         heading_company = f"**{company} — {title}**".strip()
         heading_location =f"{location} ({dates})".strip()
-        out.extend([heading_company, heading_location,""])
+        out.extend([heading_company, "", heading_location,""])
 
         kept = []
         for b in role.get("bullets") or []:
