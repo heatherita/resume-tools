@@ -3,11 +3,34 @@ location: "Keyport, New Jersey"
 phone: "732-900-3895"
 email: "hbuch4@yahoo.com"
 
-summary: >
-  Experienced web developer with 20+ years of expertise in designing, developing, and optimizing enterprise applications.
-  Strong proficiency in Java, Python, SQL, and front-end frameworks. Deep understanding of object-oriented programming
-  and architecture. Expertise in AWS EC2 high-availability environments, configuration management with Ansible, CI/CD
-  workflows, and release automation. Passionate about delivering high-performance applications and scalable solutions.
+summary:
+  - text: >
+      Experienced software developer with 20+ years of expertise in designing, developing, and optimizing enterprise applications.
+      Strong proficiency in Java, Python, SQL, and front-end frameworks. Deep understanding of object-oriented programming
+      and architecture. Expertise in AWS EC2 high-availability environments, configuration management with Ansible, CI/CD
+      workflows, and release automation. Passionate about delivering high-performance applications and scalable solutions.
+    tags: ["programmer"]
+  - text: >
+      Experienced software developer with 20+ years of expertise in designing, developing, and optimizing enterprise applications.
+      Strong proficiency in SQL, Python and web data analysis. Expertise in AWS EC2 high-availability environments, configuration 
+      management with Ansible, CI/CD workflows, and release automation. Passionate about delivering high-performance applications and scalable solutions.
+    tags: [ "data_analyst" ]
+  - text: >
+      Software developer with 20+ years of experience in web development, backend systems, cloud infrastructure, and automation.
+      Skilled in Java, Python, SQL, web technologies, and AWS. Strong background in problem-solving, documentation, mentoring, 
+      and systems thinking. Passionate about helping students gain confidence with technology and understand how computers 
+      work “under the hood".
+    tags: [ "teacher" ]
+
+certification:
+    - header:
+        New Jersey CTE Certificate of Eligibility (4148)
+      tags: [ "teacher" ]
+    - text: >
+        Computer Science Technology
+        Authorized instructional areas include computer science, programming, networking, cybersecurity, data processing, 
+        web development, computer graphics, modeling/simulation, and information technology.
+      tags: [ "teacher" ]
 
 skills:
   - header: "Programming Languages"
@@ -35,10 +58,12 @@ experience:
     location: "South Plainfield, NJ"
     dates: "2015 - 2025"
     bullets:
-      - text: "Developed and maintained enterprise Java applications to support logistics and supply chain operations."
-        tags: ["java"]
       - text: "Developed and maintained enterprise Java applications to support logistics and supply chain operations, saving 200K annually on enterprise service contracts."
-        tags: ["quant"]
+        tags: ["java"]
+      - text: "Led Okta authentication software migration requiring deep analysis of web user data."
+        tags: [ "data_analyst" ]
+      - text: "Created SQL queries to handle logistics operations tasks such as FCFS pickup and delivery, truck scheduling, and fuel pricing."
+        tags: [ "data_analyst" ]
       - text: "Created dynamic PDF reports using SQL and Apache FOP for data-driven decision-making."
         tags: ["base"]
       - text: "Optimized SQL queries and database performance to improve system efficiency."
@@ -51,18 +76,14 @@ experience:
         tags: ["base"]
       - text: "Led UI enhancements using JavaServer Faces (JSF) and WordPress (PHP)."
         tags: ["base"]
-      - text: "Designed and automated AWS EC2 infrastructure upgrades and provisioning using Ansible."
-        tags: ["java"]
       - text: "Designed and automated AWS EC2 infrastructure upgrades and provisioning using Ansible, eliminating manual system updates and enabling safe, staged rollout of Linux and Payara middleware updates via a dedicated staging environment."
-        tags: ["quant"]
+        tags: ["java"]
       - text: "Designed and automated WordPress core, plugin, and content updates using Ansible and WP-CLI, reducing manual maintenance and ensuring timely security updates and article publication."
         tags: ["php"]
       - text: "Maintained a CI/CD pipeline for J2EE applications by integrating Mercurial with Jenkins and Maven."
         tags: ["base"]
-      - text: "Implemented DevOps best practices for configuration management and deployment automation."
-        tags: ["java"]
       - text: "Implemented DevOps best practices for configuration management and deployment automation, cutting deployment-related downtime by 90%."
-        tags: ["quant"]
+        tags: ["java"]
 
   - company: "Hub City Media"
     title: "Senior Software Engineer"
@@ -85,14 +106,16 @@ experience:
     location: "Edison, NJ"
     dates: "2013 - 2014"
     bullets:
-      - text: "Developed e-commerce site using PHP."
-        tags: ["base"]
-      - text: "Developed electronic product ordering system using PHP/MySQL."
+      - text: "Developed system for ordering, labeling, and receiving products using PHP/MySQL and MVC architecture."
         tags: ["base"]
       - text: "Designed MySQL database and integrated it with QuickBooks using api tools."
         tags: ["base"]
       - text: "Performed QuickBooks upgrades (Enterprise 2013, Enterprise 2014), adhering to security best practices."
         tags: ["base"]
+      - text: "Developed e-commerce site using PHP."
+        tags: [ "base" ]
+      - text: "EDI translation (X12 to XML/CSV)."
+        tags: [ "data_analyst" ]
       - text: "Desktop support."
         tags: ["base"]
 

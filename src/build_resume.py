@@ -64,11 +64,54 @@ def render_header(data: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def render_summary(data: dict[str, Any]) -> str:
-    summary = data.get("summary")
-    if not summary:
+def render_summary(data: dict[str, Any],
+                   include: set[str],
+                    exclude: set[str],
+    mode: str,) -> str:
+    out = []
+    kept = []
+    for b in data.get("summary") or []:
+        text = md_escape(str(b.get("text", "")))
+        tags = norm_tags(b.get("tags"))
+        if text and bullet_included(tags, include, exclude, mode):
+            kept.append(text)
+
+    if kept:
+        out = ["## Professional Summary", "", "----", "\n"]
+        for t in kept:
+            out.append("")
+            out.append(md_escape(t))
+        out.append("")
+        return "\n".join(out)
+    else:
         return ""
-    return "\n".join([md_escape(summary), "\n"])
+
+def render_certification(data: dict[str, Any],
+                   include: set[str],
+                    exclude: set[str],
+    mode: str,) -> str:
+    out = []
+    kept = []
+    for b in data.get("certification") or []:
+        header = md_escape(str(b.get("header", "")))
+        tags = norm_tags(b.get("tags"))
+        if header and bullet_included(tags, include, exclude, mode):
+            kept.append(f"**{header}**")
+
+        text = md_escape(str(b.get("text", "")))
+        tags = norm_tags(b.get("tags"))
+        if text and bullet_included(tags, include, exclude, mode):
+            kept.append(text)
+
+    if kept:
+        out.extend(["## Certification", "", "----", "\n"])
+        for t in kept:
+            out.append("")
+            out.append(t)
+        out.append("")
+        return "\n".join(out)
+    else:
+        return ""
 
 
 def render_skills(data: dict[str, Any]) -> str:
@@ -169,7 +212,8 @@ def render_education(data: dict[str, Any]) -> str:
 def build_md(data: dict[str, Any], include: set[str], exclude: set[str], mode: str) -> str:
     parts = [
         render_header(data),
-        render_summary(data),
+        render_summary(data, include, exclude, mode),
+        render_certification(data, include, exclude, mode),
         render_skills(data),
         render_experience(data, include, exclude, mode),
         render_projects(data, include, exclude, mode),
